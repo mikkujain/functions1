@@ -11,6 +11,7 @@ def fact(n):
     else:
         for i in range(1,n):
             n=n*i
+            print(n)
         return n
 
 a=int(input("Enter a number"))
